@@ -19,8 +19,6 @@ const options = {
   },
 };
 
-const logo = `${__dirname}/templates/marathon_health.png`;
-
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -29,8 +27,7 @@ app.post("/create-pdf", (req, res) => {
   const fileName = `${__dirname}/forms/${req.body.name.replace(
     /\s+/g,
     "-"
-  )}-consent.pdf`;
-  req.body["logo"] = logo;
+  )}-consent`;
 
   pdf
     .create(pdfTemplate(req.body), options)

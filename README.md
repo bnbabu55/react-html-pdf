@@ -1,11 +1,5 @@
 # Generate Dynamic PDFs Using React and NodeJS
 
-## Currency Converter Tutorial
-
-This is a code repository for the corresponding [article](https://medium.freecodecamp.org/how-to-generate-dynamic-pdfs-using-react-and-nodejs-eac9e9cb4dde) on Medium.
-
-In this tutorial, you will learn how to generate dynamic PDFs using HTML code as a template.
-
 ## Project Setup
 
 1. git clone or download zip file and unzip to a new directory

@@ -40,7 +40,7 @@ const Form = ({ formSubmitted }) => {
       body: JSON.stringify({
         name: yourname,
         date: currentdate,
-        signature: signatureCanvas.toDataURL(),
+        signature: signatureCanvas.toDataURL("image/svg+xml"),
       }),
     });
 
